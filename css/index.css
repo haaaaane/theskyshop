@@ -367,7 +367,8 @@ article .max-container {
 .article3 {
     background: #00504a;
     padding:70px 0 20px;
-    color:#faf4e8
+    color:#faf4e8;
+    overflow: hidden;
 }
 .article3 .container {
     position: relative;
@@ -382,15 +383,8 @@ article .max-container {
 }
 .article3 .container > img:nth-child(2) {
     position: absolute;
-    top:50%; right:-26.79%;
+    top:50%; right:-38.79%;
     transform: translateY(-50%);
-    width:21%;
-}
-.article3 .container > img:nth-child(3) {
-    width:220px;
-    position: absolute;
-    top:40%; left:-40%;
-    translate: deg(15%);
 }
 .article3 .container .vigan-box {
     display: flex;
